@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 from pydantic import BaseModel, Field, ValidationError, NaiveDatetime, \
-TypeAdapter
+    TypeAdapter
 
 
 class SpaceStation(BaseModel):
